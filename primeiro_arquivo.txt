@@ -1,0 +1,77 @@
+Sobre o Git
+
+Git é um programa que provê o serviço de criação de repositórios
+para mantermos os arquivos que compõem um Website ou programa para sejam 
+feitas manutenções e modificaçõe por um ou uma equipe de desenvolvedores
+remotamente.
+
+As alterações podem ser revistas por outros desenvolvedores ou lideres de 
+equipes que irão autorizar ou não a implementação do trabalho.
+
+Github é uma plataforma que cria e mantém repositorios online conectados
+aos repositórios locais nas máquinas dos desevolvedores. Após codificação do 
+programa ou Website, seus arquivos podem ser integrados em repositórios de versões
+para depois de aprovados, serem mesclados ao projeto no repositório mestre.
+
+
+seus comandos mais usados:
+
+git init 
+=== iniciar o git no repositório ===
+
+touch (arquivo.extensão)  
+===  criação de um arquivo no repositório ===
+
+git status 
+=== listar a situação dos arquivos no repositório ===
+
+git diff 
+=== mostrar modificações nos arquivos alterados no repositório ===
+
+git log 
+=== mostrar histórico de commits executados no repositório ===
+
+git clone (url) 
+=== copiar conteudo do repositorio criado no github para a máquina local ===
+
+git add . 
+=== preparar conteudo para saída (commit) ===
+
+git commit -m "mensagem" 
+=== deixar conteúdo na saída ===
+
+git tag -a (nome da tag) 
+=== criar uma tag ===
+
+.gitignore 
+=== criar um arquivo lista para não enviar certos arquivos para o projeto final ===
+
+git push origin (nome da branch) 
+=== enviar o conteúdo do repositório local para o repositório online no Github ===
+
+git pull origin (nome da branch) 
+=== mescla modificações nas mesmas linhas de codigo para que sejam revisadas e definidas ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
